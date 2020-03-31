@@ -12,7 +12,8 @@ const devConfig = {
     contentBase: path.join(__dirname, '../src'),
     open: true,
     hot: true,
-    watchContentBase: true
+    watchContentBase: true,
+    host: '0.0.0.0'
   },
   plugins: [
     // 热更新 HMR
