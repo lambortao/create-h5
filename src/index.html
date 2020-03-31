@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_cn">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Document</title>
 </head>
 <body>
-  <div>测试内容</div>
-  <img src="./test.png" alt="">
+  <div class="landscape"><p>为保证最佳浏览体验，请竖屏查看</p></div>
+  <div class="main-box">
+    <div class="single-pages loading-box show greenbg">
+      <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <div class="main">
+
+      <div class="music-box">
+        <div class="music-main"><img src="./images/music.png" alt="播放音乐"></div>
+        <audio src="./music/bg.mp3" id="myBgMusic" controls="controls" loop="true" hidden="true"></audio>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
