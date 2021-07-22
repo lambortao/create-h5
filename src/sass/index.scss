@@ -1,0 +1,8 @@
+// 在这里定义公共的 css 文件
+@charset "utf-8";
+// 重置 css 文件
+@import './reset';
+// 响应式布局
+@import './device';
+// 公共方法
+@import './fun';
